@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #ffffbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Wrapper {
+  background: linear-gradient(to right, #00ffaa, #00ff);
+  border-radius: 1rem;
+  width: 20rem;
+  padding: 2rem;
+  margin: 4rem;
+}
+.Screen {
+  height: 4rem;
+  margin-bottom: 4rem;
+}
+.ButtonBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.2rem;
+}
+.Button {
+  display: flex;
+  border-radius: 6px;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #242424;
+  font-size: 1.5rem;
+  border: none;
+}
+.Button:hover {
+  border: dotted;
+}
+.equals {
+  grid-column: 3/5;
+}
